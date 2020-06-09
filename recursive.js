@@ -10,12 +10,12 @@ var randomItemGenerator = function(n) {
 var itemList = randomItemGenerator(10)
 
 
-// resurcive function degiskenleri
+// recursive function degiskenleri
 var globalArr = [],
   count = 0;
 
 
-/* resurcive function */
+/* recursive function */
 var convertToTree = function(mainArr) {
   count += 1;
 
